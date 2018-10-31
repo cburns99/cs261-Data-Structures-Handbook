@@ -19,6 +19,6 @@ def divide_by_2(decimal_number):
 
     while not remainder_stack.is_empty():
 
-        binary_string = binary_string + str(remainder_stack.pop())
+        binary_string += str(remainder_stack.pop())
 
     return binary_string
