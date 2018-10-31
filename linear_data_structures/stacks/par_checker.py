@@ -2,9 +2,10 @@
 
 from Stack import Stack
 
-def parChecker(symbol_string):
 
-    s = Stack()
+def par_checker(symbol_string):
+
+    stack = Stack()
 
     balanced = True
 
@@ -15,15 +16,20 @@ def parChecker(symbol_string):
         symbol = symbol_string[index]
 
         if symbol == "(":
-            s.push(symbol)
-        elif s.isEmpty():
+            stack.push(symbol)
+
+        elif stack.is_empty():
             balanced = False
+
         else:
-            s.pop()
+            stack.pop()
 
         index += 1
 
-    if balanced and s.isEmpty():
+    if balanced and stack.is_empty():
         return True
+
     else:
         return False
+
+
