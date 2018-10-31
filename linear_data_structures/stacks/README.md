@@ -10,4 +10,4 @@ pop() ~ removes the top item from the stack. It needs no parameters and returns 
 
 peek() ~ returns the top item from the stack but does not remove it. It needs no parameters. The stack is not modified.
 
-isEmpty() ~ tests to see whether the stack is empty. It needs no parameters and returns a boolean value.
+is_empty() ~ tests to see whether the stack is empty. It needs no parameters and returns a boolean value.
