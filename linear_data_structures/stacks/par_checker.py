@@ -17,10 +17,8 @@ def par_checker(symbol_string):
 
         if symbol == "(":
             stack.push(symbol)
-
         elif stack.is_empty():
             balanced = False
-
         else:
             stack.pop()
 

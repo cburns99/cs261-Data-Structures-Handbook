@@ -12,7 +12,6 @@ def matches(opener, closer):
     return openers.index(opener) == closers.index(closer)
 
 
-
 def par_checker_ext(symbol_string):
 
     stack = Stack()
@@ -27,10 +26,8 @@ def par_checker_ext(symbol_string):
 
         if symbol in "([{":
             stack.push(symbol)
-
         elif stack.is_empty():
             balanced = False
-
         else:
             opener = stack.pop()
             closer = symbol
