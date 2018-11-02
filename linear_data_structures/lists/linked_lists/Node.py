@@ -1,4 +1,9 @@
-# The basic building block for the linked list implementation is the node. Each node object must hold at least two pieces of information. First, the node must contain the list item itself. We will call this the data field of the node. In addition, each node must hold a reference to the next node. The special Python reference value None will play an important role in the Node class and later in the linked list itself. A reference to None will denote the fact that there is no next node.
+# The basic building block for the linked list implementation is the node. Each node object must
+# hold at least two pieces of information. First, the node must contain the list item itself. We
+# will call this the data field of the node. In addition, each node must hold a reference to the
+# next node. The special Python reference value None will play an important role in the Node class
+# and later in the linked list itself. A reference to None will denote the fact that there is no
+# next node.
 
 
 class Node:

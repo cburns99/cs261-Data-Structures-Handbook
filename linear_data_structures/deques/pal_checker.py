@@ -1,4 +1,9 @@
-# This algorithm takes a string of characters as input and checks whether or not it is a palindrome. It processes the string from left to right and adds each character to the rear of the deque. The front of the deque will hold the first character of the string and the rear of the deque will hold the last character. It removes both first and last items directly, compares them, and if they match, continues until there are no more items left or one item left depending on whether the length of the original string was even or odd.
+# This algorithm takes a string of characters as input and checks whether or not it is a palindrome.
+# It processes the string from left to right and adds each character to the rear of the deque. The
+# front of the deque will hold the first character of the string and the rear of the deque will hold
+# the last character. It removes both first and last items directly, compares them, and if they match,
+# continues until there are no more items left or one item left depending on whether the length of the
+# original string was even or odd.
 
 from Deque import Deque
 
