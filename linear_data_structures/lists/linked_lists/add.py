@@ -7,8 +7,6 @@
 # Now that the rest of the list has been properly attached to the new node, we can modify the head
 # of the list to refer to the new node. Step 2 (line 15) sets the new node as the head of the list.
 
-from Node import Node
-
 def add(self, item):
     temp = Node(item)
     temp.set_next(self.head)

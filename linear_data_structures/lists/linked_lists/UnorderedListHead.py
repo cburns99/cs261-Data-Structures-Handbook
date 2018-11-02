@@ -5,6 +5,7 @@
 # objects. Instead, it will contain a single reference to only the first node in the linked
 # structure.
 
+
 class UnorderedList:
 
     def __init__(self):
