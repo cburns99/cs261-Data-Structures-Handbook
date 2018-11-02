@@ -1,4 +1,4 @@
-# The remove method requires to logical steps. First, we need to traverse the list looking for the
+# The remove method requires two logical steps. First, we need to traverse the list looking for the
 # item we want to remove. Once we find the item, we must remove it. Starting with an external
 # reference set to the head of the list, we traverse the links until we discover the item we are
 # looking for. Since we assume that the item is present, we know that the iteration will stop before
