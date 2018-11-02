@@ -1,3 +1,5 @@
+# The Deque Abstract Data Type
+
 A deque (pronounced "deck"), also known as a double-ended queue, is an ordered collection of items similar to the queue. It has two ends, a front and a rear (giggity), and the items remain positioned in the collection. What makes a deque different is the unrestrictive nature of adding and removing items. New items can be added at either the front or the rear (giggity). Likewise, existing items can be removed from either end. Even though the deque assumes many of the characteristics of stacks and queues, it does not require the LIFO and FIFO orderings that are enforced by those data structures.
 
 The deque operations are given below.
