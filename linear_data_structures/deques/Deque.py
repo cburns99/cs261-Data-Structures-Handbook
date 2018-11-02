@@ -1,4 +1,4 @@
-# The details of this deque implementation will be built upon the set of methods used by the Python list. It will assume that the rear of the deque is at position 0 in the list.
+# The details of this deque implementation will be built upon the set of methods used by the Python list. It will assume that the rear of the deque is at position 0 in the list and the front of the deque is at position n-1 in the list.
 
 
 class Deque:
