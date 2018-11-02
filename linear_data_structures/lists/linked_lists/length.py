@@ -3,11 +3,11 @@
 # external reference that starts at the first node in the list. As we visit each node, we move the
 # reference to the next node by "traversing" the next reference. We need to traverse the linked
 # list and keep a count of the number of nodes that occurred. The external reference is called
-# current and is initialized to the head of the list in line 4. At the start of the process we
-# have not seen any nodes so the count is set to 0. Lines 6-8 implement the traversal. As long as
+# current and is initialized to the head of the list in line 13. At the start of the process we
+# have not seen any nodes so the count is set to 0. Lines 15-17 implement the traversal. As long as
 # the current reference has not seen the end of the list (None), we move current along to the next
-# node via the assignment statement in line 8. Every time current moves to a new node, we add 1 to
-# count (line 7). Finally, count gets returned after the iteration stops (line 9).
+# node via the assignment statement in line 17. Every time current moves to a new node, we add 1 to
+# count (line 16). Finally, count gets returned after the iteration stops (line 18).
 
 def length(self):
     current = self.head
