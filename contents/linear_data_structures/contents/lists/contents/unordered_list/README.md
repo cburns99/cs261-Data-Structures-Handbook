@@ -225,7 +225,7 @@ class UnorderedList:
 
 <h1>Performance</h1>
 
-<p>Big-O performance of the Python unordered list operations:</p>
+<p>Big-O efficiency of operations:</p>
 
 [Insert information here]
 
